@@ -24,6 +24,14 @@
   },
   "author": "OcelotJungle",
   "license": "MIT",
+  "keywords": [
+    "log",
+    "logs",
+    "logger",
+    "logging",
+    "console",
+    "output"
+  ],
   "devDependencies": {
     "@tsconfig/strictest": "^2.0.3",
     "@types/jest": "^29.5.12",
