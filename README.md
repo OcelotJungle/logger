@@ -23,7 +23,7 @@ Adds console to logger outputs. Can be default (`global.console`) or custom.
 
 #### `withFiles`
 Adds files to logger outputs:
-- `folder` is an absolute path where logs will be written;
+- `folder` is an absolute path or relative to project root path where logs will be written;
 - `name` is a left log files name (`*name*(.suffix)?.extension`);
 - `extension` is a log files extension (`name(.suffix)?.*extension*`);
 - `levels` is similar to `constructor`'s options `levels`, except `common` level, which is general file for all logs;

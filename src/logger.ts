@@ -122,7 +122,8 @@ export class Logger {
         extension = "log",
         levels = {},
     }: WithFilesOptions = {}) {
-        const logPath = path.join(process.cwd(), folder, Logger.START_TIME);
+        const root = path.isAbsolute(folder) ? folder : path.join(process.cwd(), folder);
+        const logPath = path.join(root, Logger.START_TIME);
 
         fs.mkdirSync(logPath, { recursive: true });
 

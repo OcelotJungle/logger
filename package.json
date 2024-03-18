@@ -1,6 +1,6 @@
 {
   "name": "@ocelotjungle/logger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Configurable logger with subloggers and file support",
   "type": "module",
   "main": "./dist/index.cjs",
